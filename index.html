@@ -20,31 +20,31 @@
 
         <div class="left">
         
-          <input type="text" class="text-input" id="InputTexto" placeholder="Ingrese el texto aqui">
+          <input type="text" class="text-input" id="inputTexto" placeholder="Ingrese el texto aqui">
                
           <div class="textad">
             <img class="imgadm"src="im1.png"><h1>Solo minusculas y sin acentos
             </h1> <div>
           
-            <input type="submit" id="btn-encriptar" onclick="encriptar()" value="Encriptar"> 
+            <input type="submit" id="btn-encriptar"  value="Encriptar" onclick="encriptar()"> 
             
-              <input type="submit" id="btn-deencriptar" onclick="Desencriptar()" value="Desencriptar">
+              <input type="submit" id="btn-deencriptar"  value="Desencriptar" onclick="desencriptar()">
 
             </div>
           </div>
           
         </div>
         
-      
       <div class="right">
         
-        <img id="imgder" src="muñeca.png">
+        <img id="imgder" src="muñeca.png" class="ocultar">
         <h1 id="texto">Ningun mensaje fue encontrado</h1>
         
-        <textarea id="texto2" name="name" rows="8" cols="8"> Ingrese el Texto que desees encriptar o desecriptar</textarea>
+        <input type="text" class="texto" id="texto2" placeholder="Ingrese el Texto que desees encriptar o desecriptar">
         
-        <input id="btn-copiartexto" type="submit" name="name" onclick="copiar()" value="!Copiar¡"> 
-        <script src="texto_encriptado.js"></script>   
+        <input id="btn-copiartexto" type="submit" name="name" value="!Copiar¡" onclick="copy()"> 
+
+        <script  src="texto_encriptado.js"></script>   
     </div>
   </body>
 </html>

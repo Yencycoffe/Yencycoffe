@@ -1,43 +1,38 @@
-*{
+body{
 
     margin: 0px;
     padding: 0px;
     background:#F3F5FC;
     
 }
-
 .container{
 
-    margin:auto ;
+    margin: 20px;
     padding: 50px;
-    width:100%;
-    height:100%;
-    width: 900px;
-    height:1500px ;
+    width: 1200px;
+    height: 1900px;
     background-image:url(tecnologia-futuro880.jpg);
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
-    
+    background-size:cover;
+           
 }
-.ocultar{
-
-    display: none;
-}
-
 
 .logo{
-    width: 100%;
+    width: 1100px;
     float: left;
     background-color: rgb(228, 211, 250);
     height:150px;
-    margin:10px;
+    margin: 10px;
     border-radius:20px;
 }
+
 .left{
     float: left;
-    width: 50%;
-    height:70%;
+    width: 500px;
+    height:1200px;
+    margin: 30px;   
     border-radius: 24px;
     background-color: rgb(133, 133, 253);
 
@@ -45,8 +40,9 @@
 .right{
 
     float: left;
-    width: 50%;
-    height:70%;
+    width: 500px;
+    height:1200px;
+    margin: 30px;
     border-radius: 24px;
     background-color: rgb(104, 55, 238);
     
@@ -56,11 +52,10 @@
 .textad{
 
     float: left;
-    width: 80%;
-    height:50px;
+    width: 90px;
+    height:30px;
     margin: 1% 1% ;
     border-radius: 24px;
-    background-color:none;
     font-size: 20px;
     color: rgb(255, 255, 255);
     vertical-align: middle;
@@ -69,10 +64,11 @@
 
 .imgadm{
 
-    width: 15% ;
+    width: 40px;
     vertical-align: middle;
-    margin: 6%;
-
+    margin: 10px;
+    float: left;
+    
 }
 
 .logoimg {
@@ -86,21 +82,20 @@
         float: left;
         margin-left: 20%;
         margin:50px 10px 10px 30px;
-        font-size: 40px;
+        font-size: 50px;
         font-weight: bold;
         color: #0A3871;
         font-style:italic;
         text-align: center;
 
-
-
     }
+
 .text-input {
         float: inherit;
         margin-left: 10%;
         margin-top: 10%;
         width: 80%;
-        height: 70%;
+        height: 50%;
         color: #0A3871;
         font-size: 20px;
         border: none;
@@ -109,82 +104,98 @@
     }
 
 #imgder{
+        
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 400px;
+        height: 400px;
 
-        margin-left: 5%;
-        margin-top: 20%;
-        width: 90%;
-        height: 50%;
     }
-#texto{
+
+#texto1{
 
         margin-left: 7%;
         margin-top: 5%;
         font-size: 30px;
         color:#d8dfe8;
         font-style:italic;
+
     }
+
 #texto2 {
-        float:left;
-        margin-left: 5%;
+        
+        margin: 40px 20px 20px 20px;
         color: #0A3871;
         font-weight: bold;
         width: 90%;
-        height: 20%;
+        height: 30%;
         border: none;
         border-radius: 24px;
-        outline: none;
         font-size: 20px;
+        
+        
     }
+#texto3 {
+        
+        font-size: 20px;
+        color: #f3f6fa;
+        font-weight: bold;
+        float: left;
+
+
+    }
+
 #btn-encriptar{
 
     padding: 20px;
-    width: 40%;
+    width: 30%;
     height: 60%;
+    margin: 50px 10px 10px 30px;
     border-radius: 24px;
+    font-size: 20px;
+    color: #f3f4f7;
     background: #0A3871;
     border: #0A3871;
-    margin: 1px 20px;
-    position: relative;
     cursor: pointer;
-    transform: translate(4px);
     box-shadow: 0 9px #999; 
     
-
 }
+
 #btn-deencriptar{
 
     padding: 20px;
-    width: 40%;
+    width: 30%;
     height: 60%;
     border-radius: 24px;
     background: #d8dfe8;
     border: #0A3871;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
-    margin: 1px 4px;
+    margin: 0px 0px 0px 0px;
     transform: translate(4px);
     box-shadow: 0 9px #999;
     position: relative;
     cursor: pointer;
     
-    
-    
+    }
 
-}
-#btn-copiartexto {
+    #caja-texto{
+
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .btn-copiar {
     
-    margin: 20px 50px;
-    width: 80%;
-    height: 60px;
+    margin: 50px 50px 50px 100px;
+    width: 60%;
+    height: 5%;
     border-radius: 24px;
     background: #d8dfe8;
     border: #0A3871;
     font-size: 30px;
     font-weight: bold;
     transform: translate(4px);
-    box-shadow: 0 9px #999;
-    
-    
         
 }
-
